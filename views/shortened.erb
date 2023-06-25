@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+    <title>Shortened URL | URL Shortener Service | Fastest Coder Hackathon | Team Aafat</title>
+
+
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/animate.css">
+    <link rel="stylesheet" href="./assets/css/nice-select.css">
+    <link rel="stylesheet" href="./assets/css/owl.min.css">
+    <link rel="stylesheet" href="./assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="./assets/css/flaticon.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <!--============= ScrollToTop Section Starts Here =============-->
+    <div class="overlayer" id="overlayer">
+        <div class="loader">
+            <div class="loader-inner"></div>
+        </div>
+    </div>
+    <a href="#0" class="scrollToTop"><i class="fas fa-angle-up"></i></a>
+    <div class="overlay"></div>
+    <!--============= ScrollToTop Section Ends Here =============-->
+
+
+
+    <!--============= Banner Section Starts Here =============-->
+    <section class="banner-section">
+        <div class="banner-bg bg_img">
+            <div class="banner-bg-shape"></div>
+            <div class="round-1">
+                <img src="./assets/images/banner/01.png" alt="banner">
+            </div>
+            <div class="round-2">
+                <img src="./assets/images/banner/02.png" alt="banner">
+            </div>
+        </div>
+        <div class="container">
+            <div class="banner-content">
+                <h2 class="cate" style="color: #414785;">This is Your Shortened URL</h2>
+                <br><br>
+                <div class="container bg-light">
+                <h3 style="color: #414785;"><a href="/<%= short_url %>" style="color: #0A0A23" target="_blank" rel="noopener noreferrer" active><%= request.base_url %>/<%= short_url %></a></h3>
+                </div>
+                <br><br>
+                <h3 style="color: #414785;">Fastest Coder Hackathon<br>This is made by Nasif and Dipankar - Team Aafat
+                <br><br>
+                <center>
+                <form class="banner-form" style="justify-content:center; display: flex;" action="/">
+                    <button type="submit">Back</button>
+                </form>    
+                </center></h3>
+
+            </div>
+
+            
+            
+
+        </div>
+    </section>
+    <!--============= Banner Section Ends Here =============-->
+
+    <!--============= Feature Section Starts Here =============-->
+    <section class="feature-section padding-top oh padding-bottom pb-lg-half bg_img pos-rel">
+        <div class="top-shape d-none d-md-block">
+            <img src="./assets/css/img/top-shape.png" alt="css">
+        </div>
+        <div class="bottom-shape d-none d-md-block mw-0">
+            <img src="./assets/css/img/bottom-shape.png" alt="css">
+        </div>
+        <div class="ball-2" data-paroller-factor="-0.30" data-paroller-factor-lg="0.60"
+        data-paroller-type="foreground" data-paroller-direction="horizontal">
+            <img src="./assets/images/balls/1.png" alt="balls">
+        </div>
+        <div class="ball-3" data-paroller-factor="0.30" data-paroller-factor-lg="-0.30"
+        data-paroller-type="foreground" data-paroller-direction="horizontal">
+            <img src="./assets/images/balls/2.png" alt="balls">
+        </div>
+        <div class="ball-4" data-paroller-factor="0.30" data-paroller-factor-lg="-0.30"
+        data-paroller-type="foreground" data-paroller-direction="horizontal">
+            <img src="./assets/images/balls/3.png" alt="balls">
+        </div>
+        <div class="ball-5" data-paroller-factor="0.30" data-paroller-factor-lg="-0.30"
+        data-paroller-type="foreground" data-paroller-direction="vertical">
+            <img src="./assets/images/balls/4.png" alt="balls">
+        </div>
+        <div class="ball-6" data-paroller-factor="-0.30" data-paroller-factor-lg="0.60"
+        data-paroller-type="foreground" data-paroller-direction="horizontal">
+            <img src="./assets/images/balls/5.png" alt="balls">
+        </div>
+        <div class="ball-7" data-paroller-factor="-0.30" data-paroller-factor-lg="0.60"
+        data-paroller-type="foreground" data-paroller-direction="vertical">
+            <img src="./assets/images/balls/6.png" alt="balls">
+        </div>
+        <div class="container">
+            <div class="section-header cl-white">
+                <!-- <h5 class="cate">Choose a plan thats right for you</h5> -->
+                <h2 class="title mt-md-0" style="color:#414785">All Features</h2>
+                <p style="color:#414785">
+                    It is free to use for all your needs. You can use it for your personal or business needs. We are always here to help you.
+                </p>
+            </div>
+            <div class="tab">
+                <ul class="tab-menu feature-tab">
+                    <li>
+                        <div class="thumb">
+                            <img src="./assets/images/feature/01.png" alt="feature">
+                        </div>
+                        <div class="content" style="color:#414785;">High Uptime</div>
+                    </li>
+                    <li>
+                        <div class="thumb">
+                            <img src="./assets/images/feature/02.png" alt="feature">
+                        </div>
+                        <div class="content" style="color:#414785;">Easy To Use</div>
+                    </li>
+                    <li>
+                        <div class="thumb">
+                            <img src="./assets/images/feature/03.png" alt="feature">
+                        </div>
+                        <div class="content" style="color:#414785;"> Referral Program</div>
+                    </li>
+                    <li>
+                        <div class="thumb">
+                            <img src="./assets/images/feature/05.png" alt="feature">
+                        </div>
+                        <div class="content" style="color:#414785;">Support</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!--============= Feature Section Ends Here =============-->
+
+
+    <!--============= How Section Starts Here =============-->
+    <section class="how-section padding-top padding-bottom pt-md-half pb-max-lg-0">
+        <div class="container">
+            <div class="section-header mb-low">
+                <h2 class="title mb-0">How to start</h2>
+            </div>
+            <div class="row justify-content-center mb--40">
+                <div class="col-lg-4 col-md-6 col-sm-10">
+                    <div class="how-item">
+                        <div class="how-thumb">
+                            <img src="./assets/images/how/how2.png" alt="how">
+                        </div>
+                        <div class="how-content">
+                            <h6 class="title">JUST SHORTEN YOUR LINK USING SHORTEN BUTTON ON THE TOP</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--============= How Section Ends Here =============-->
+
+
+    <!--============= Testimonial Section Starts Here =============-->
+    <section class="testimonial-section padding-top padding-bottom pos-rel oh">
+        <div class="ball-3 style2 d-none d-lg-block" data-paroller-factor="0.30" data-paroller-factor-lg="-0.30" data-paroller-type="foreground" data-paroller-direction="horizontal">
+            <img src="./assets/images/client/circle2.png" alt="client">
+        </div>
+        <div class="ball-6 style2 d-none d-lg-block" data-paroller-factor="-0.30" data-paroller-factor-lg="0.60" data-paroller-type="foreground" data-paroller-direction="horizontal">
+            <img src="./assets/images/client/circle1.png" alt="client">
+        </div>
+        <div class="container">
+            <div class="row justify-content-between flex-wrap-reverse align-items-center">
+                <div class="col-lg-7">
+                    <div class="testimonial-wrapper style-two">
+                        <a href="#0" class="testi-next trigger">
+                            <img src="./assets/images/client/left.png" alt="client">
+                        </a>
+                        <a href="#0" class="testi-prev trigger">
+                            <img src="./assets/images/client/right.png" alt="client">
+                        </a>
+                        <div class="testimonial-area testimonial-slider owl-carousel owl-theme">
+                            <div class="testimonial-item">
+                                <div class="testimonial-thumb">
+                                    <div class="thumb">
+                                        <img src="./assets/images/client/client1.jpg" alt="client">
+                                    </div>
+                                </div>
+                                <div class="testimonial-content">
+                                    <div class="ratings">
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                    </div>
+                                    <p>
+                                        It is Best Platform to Shorten Link. The use of Ruby has made it very effective to use.
+                                    </p>
+                                    <h5 class="title"><a href="#0">Nasif Arafat</a></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 pl-lg-5">
+                    <div class="testi-wrapper">
+                        <div class="testi-header">
+                            <div class="section-header left-style mb-lg-0">
+                                <h5 class="cate">Testimonials</h5>
+                                <h2 class="title">5000+ happy clients all around the world</h2>
+                                <a href="#0" class="button-3 active mt-md-2">Leave a review <i class="flaticon-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--============= Testimonial Section Ends Here =============-->
+
+
+    <!--============= Footer Section Starts Here =============-->
+    <footer class="footer-section padding-top">
+        <div class="footer-bg d-md-block d-none"></div>
+        <div class="container">
+            <div class="footer-bottom">
+                <div class="footer-bottom-area">
+                    <div class="left cl-white">
+                        <p>&copy; Copyright 2023 | <a href="#0">USS (URL SHORTENER SERVICE)</a> By Fastest Coder Hackathon Team Aafat</p>
+                    </div>
+                    <ul class="social-icons">
+                        <li>
+                            <a href="#0" class="active">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#0" class="active">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#0" class="active">
+                                <i class="fab fa-pinterest-p"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#0" class="active">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--============= Footer Section Ends Here =============-->
+
+
+
+
+    <script src="./assets/js/jquery-3.3.1.min.js"></script>
+    <script src="./assets/js/modernizr-3.6.0.min.js"></script>
+    <script src="./assets/js/plugins.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/wow.min.js"></script>
+    <script src="./assets/js/waypoints.js"></script>
+    <script src="./assets/js/nice-select.js"></script>
+    <script src="./assets/js/counterup.min.js"></script>
+    <script src="./assets/js/owl.min.js"></script>
+    <script src="./assets/js/magnific-popup.min.js"></script>
+    <script src="./assets/js/paroller.js"></script>
+    <script src="./assets/js/contact.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
