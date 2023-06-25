@@ -1,5 +1,5 @@
 # frozen_string_literal: true
-
+# write "bundle install" to install all these framework
 # gem "rails"
 
 source 'https://rubygems.org'
